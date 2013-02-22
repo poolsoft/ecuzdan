@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/main__tableRow1">
+    	<requestFocus></requestFocus>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <ImageView
+            android:id="@+id/about_logo"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_margin="10dip"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/hakkinda_title" />
+
+        <TextView
+            android:id="@+id/main__textView2"
+            android:layout_width="wrap_content"
+            android:fadeScrollbars="true"
+            android:gravity="left"
+            android:text="Şifre :"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/main_txt_kull_sifre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Şifre"
+            android:password="true" >
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/main_cb_sifregoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:password="false"
+            android:text="Şifreyi Göster" >
+        </CheckBox>
+    </TableLayout>
+
+    <TableRow android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow_Alt">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <Button android:id="@+id/main_btn_giris" android:text="@android:string/ok" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <Button android:id="@+id/main_btn_iptal" android:text="@android:string/cancel" android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+        </LinearLayout>
+    </TableRow>
+
+    
+        
+    </LinearLayout>

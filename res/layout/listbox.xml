@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <LinearLayout android:weightSum="1" android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="fill_parent">
+            <TextView android:paddingLeft="1dp" android:text="Açılış İşlemi" android:layout_height="wrap_content" android:id="@+id/HAREKET" android:layout_width="132dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="100dp" android:id="@+id/TARIH" android:layout_gravity="center" android:text="Tarih"></TextView>
+            <TextView android:ellipsize="none" android:text="A" android:layout_gravity="right" android:gravity="left" android:layout_height="wrap_content" android:layout_width="15dp" android:textColor="#FFFF99" android:id="@+id/TIP"></TextView>
+            <TextView android:text="900 TL" android:id="@+id/TUTAR" android:gravity="right" android:layout_height="fill_parent" android:paddingRight="1dp" android:textSize="14dip" android:layout_width="match_parent"></TextView>
+        </LinearLayout>
+        <TextView android:paddingLeft="1dp" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/ACIKLAMA" android:text="Açıklama"></TextView>
+    </LinearLayout>
+  </LinearLayout>

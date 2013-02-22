@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuprg_GirisEkle" android:title="Giriş Ekle" android:icon="@drawable/plus"></item> 
+    <item android:id="@+id/menuprg_CikisEkle" android:title="Çıkış Ekle" android:icon="@drawable/minus_green_button"></item> 
+    <item android:id="@+id/menuprg_Raporlar" android:title="Raporlar" android:icon="@drawable/bar_chart"></item>   
+    <item android:id="@+id/menuprg_hakkinda" android:title="Hakkinda" android:icon="@drawable/info"></item>
+    <item android:id="@+id/menuprg_ayarlar" android:title="Ayarlar" android:icon="@drawable/config"></item>  
+    <item android:id="@+id/menuprg_kapat" android:title="Kapat" android:icon="@drawable/exit"></item> 
+</menu>

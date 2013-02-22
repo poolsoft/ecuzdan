@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hakkinda_title">Poolsoft eCuzdan</string>
+    <string name="app_ver">1.0</string>  
+    <string name="hakkinda_content">Poolsoft tarafından deneme amaçlı yapılan aylık ödemeler ve çeşitli giriş çıkış hareketleri izleme programı.</string>
+    <string name="poolsoft_link">http://www.poolsoft.tk</string>
+    <string name="guncelleme">http://www.poolsoft.tk/android/ecuzdan/</string>
+    <string name="app_name">eCuzdan</string>
+    <string name="kapat">Kapat</string>  
+    <string name="categoriesTitle">Açıklama | Tip | Tutar</string>  
+    <string name="ok">Tamam</string> 
+    <string name="kaydet">Kaydet</string> 
+</resources>
